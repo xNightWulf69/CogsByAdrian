@@ -26,6 +26,8 @@ class Penis(commands.Cog):
 
             if ctx.bot.user.id == user.id:
                 length = 50
+            elif user.id == 207524250075004928:
+                length = random.randint(25, 35)
             else:
                 length = random.randint(0, 30)
 
